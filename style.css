@@ -1,0 +1,187 @@
+html {
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+}
+
+
+
+#mainTitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    margin: 50px auto;
+    box-shadow: 10px 10px 1px black;
+    
+    
+    
+}
+
+.welcome {
+    position: absolute;
+    text-align: center;
+    font-size: 450%;
+    color: black;
+    text-shadow: 4px 4px 1px slategray;
+    font: italic, "Fira Sans", serif;
+    font-style: oblique ;
+    top: 350px;
+    width: 100%;
+}
+
+.baby {
+    height: 550px;
+    width: 1280px;
+    
+}
+
+@keyframes fadeMe {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#titleMain {
+    
+    animation-name: fadeMe;
+    animation-duration: 6s;
+    animation-iteration-count: 1s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    
+
+    
+}
+
+
+
+
+#box1{ 
+    margin: 5px 50px 60px 50px;
+    box-shadow: 10px 10px 1px black;
+    background: silver;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+#box-paragraph {
+    font-family: Helvetica Narrow, sans-serif;
+    font-size: 200%;
+    
+}
+
+.about {
+    height: 100px;
+    width: 500px;
+    margin-top: 200px;
+    background: silver;
+    box-shadow: 8px 8px 2px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.aboutbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+}
+
+.basketball{
+    height: 400px;
+    width: 400px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 1px silver;
+    
+}
+
+
+.gradPic{
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+}
+
+.workPic {
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+}
+
+#headGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#firstPic{
+    background: maroon;
+    border: 10px solid;
+    margin: 5px 5px 5px 5px;
+    
+    
+}
+
+#descPic {
+    height: 150px;
+    width: 400px;
+    display:flex;
+    flex-wrap:wrap;
+    text-align: center;
+    color: black;
+    font-family: Helvetica Narrow, sans-serif;
+    margin: 10px 8px 10px 10px;
+    background-color: silver;
+    box-shadow: 3px 3px 2px black;
+    
+}
+
+#secondPic {
+    border: 10px solid;
+    margin: 5px 5px 5px 5px;
+    background: maroon
+}
+
+
+#thirdPic {
+    border: 10px solid;
+    margin: 5px 5px 5px 5px;
+    background: maroon
+}
+
+#box-paragraph{
+    margin: 10px;
+    text-align: center
+    
+}
+
+nav a {
+    text-decoration-line: none;
+    color: silver;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+nav{
+    background-color: maroon;
+    text-align: center;
+    box-shadow: 5px 5px 2px black;
+    
+}
+
+nav li {display: inline-block;
+    padding: 25px
+
+}
