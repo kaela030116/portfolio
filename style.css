@@ -227,5 +227,5 @@
         z-index: 20;
         display: flex;
         justify-content: center;
-        background-image: linear-gradient(red,orange,yellow,purple);
+        background-image: linear-gradient(red,orange,yellow,purple, orange);
     }
